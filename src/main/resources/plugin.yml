@@ -1,0 +1,22 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: io.apollosoftware.eeprotect.EEProtect
+author: apollosoftware
+website: www.apollosoftware.io
+description:
+         A project developed for and only requester. This project
+         was all made possible by the plugin developer and requester!
+permissions:
+  eeprotect.admin:
+    description: Grants full access to the plugin.
+    default: op
+    children:
+      eeprotect.horsetp: true
+      eeprotect.sethome: true
+      eeprotect.removeclaim: true
+  eeprotect.horsetp:
+    description: Horse tp function
+  eeprotect.sethome:
+    description: Set home command
+  eeprotect.removeclaim:
+    description: Remove claim command

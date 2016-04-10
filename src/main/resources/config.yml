@@ -1,0 +1,10 @@
+# +---------------------------------------------------+ #
+# <                      EEProtect                    > #
+# <                  by apollosoftware                > #
+# <               Requested by RestlessZombi          > #
+# <                www.apollosoftware.io              > #
+# +---------------------------------------------------+ #
+
+chatPrefix: '&8[&cEEProtect&8]: &c'
+maximumWaypoints: 10
+teleportRequestCooldown: 60
